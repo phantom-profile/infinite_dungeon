@@ -1,0 +1,23 @@
+# DB
+django
+
+# TG
+pyTelegramBotAPI==4.18.1
+
+# Testing
+pytest==8.2.1
+pytest-mock==3.14.0
+fakeredis==2.23.2
+factory-boy==3.3.0
+requests-mock==1.12.1
+
+# Linters
+isort==5.13.2
+flake8==7
+
+# Tools
+redis==5.0.4
+django-extensions==3.2.3
+ipython==8.24.0
+python-dotenv==1.0.1
+sentry-sdk==2.3.1

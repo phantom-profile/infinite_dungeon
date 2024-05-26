@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 110
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist,
+    venv,
+    **/migrations,
+    frontend
+max-complexity = 10
