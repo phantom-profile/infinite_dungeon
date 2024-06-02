@@ -18,6 +18,8 @@ flake8==7
 # Tools
 redis==5.0.4
 django-extensions==3.2.3
-ipython==8.24.0
+ipython==8.25.0
 python-dotenv==1.0.1
 sentry-sdk==2.3.1
+pygments==2.18.0
+sqlparse==0.5.0
