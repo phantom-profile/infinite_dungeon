@@ -1,8 +1,8 @@
 from telebot import TeleBot
 from telebot.types import Message
 
-from lib.message_sender import MessageSender
 from dungeons.services.user_register_service import UserRegisterService
+from lib.message_sender import MessageSender
 
 
 def send_welcome(message: Message, bot: TeleBot):

@@ -3,11 +3,7 @@ from os import getenv
 from telebot import TeleBot
 
 import launcher.initialize  # noqa
-
-from dungeons.commands import (
-  message_reply,
-  send_welcome
-)
+from dungeons.commands import message_reply, send_welcome
 
 
 def run():
